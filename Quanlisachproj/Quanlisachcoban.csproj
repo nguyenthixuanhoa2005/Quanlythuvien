@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Quanlisachcoban</RootNamespace>
+    <AssemblyName>Quanlisachcoban</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ADMIN\Downloads\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://localhost:8080/</InstallUrl>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Quanlisachcoban.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>013D1A0566944E24570C9CB3D4837B6D28862E65</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Quanlisachcoban_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaoCaoUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaoCaoUserControl.Designer.cs">
+      <DependentUpon>BaoCaoUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMuonSach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMuonSach.Designer.cs">
+      <DependentUpon>FormMuonSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormXemChiTietPhieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormXemChiTietPhieu.Designer.cs">
+      <DependentUpon>FormXemChiTietPhieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Database.cs" />
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangKy.Designer.cs">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Authors.cs" />
+    <Compile Include="Model\BookAuthors.cs" />
+    <Compile Include="Model\Books.cs" />
+    <Compile Include="Model\Categories.cs" />
+    <Compile Include="Model\Ketnoi.cs" />
+    <Compile Include="Model\LoanItems.cs" />
+    <Compile Include="Model\Loans.cs" />
+    <Compile Include="Model\Users.cs" />
+    <Compile Include="TaiKhoanUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TaiKhoanUserControl.Designer.cs">
+      <DependentUpon>TaiKhoanUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinMuonAdminUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThongTinMuonAdminUserControl.Designer.cs">
+      <DependentUpon>ThongTinMuonAdminUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinMuonUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThongTinMuonUserControl.Designer.cs">
+      <DependentUpon>ThongTinMuonUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinTraAdminUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThongTinTraAdminUserControl.Designer.cs">
+      <DependentUpon>ThongTinTraAdminUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLDocGiaUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QLDocGiaUserControl.Designer.cs">
+      <DependentUpon>QLDocGiaUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrangChu.Designer.cs">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QLSachUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="QLSachUserControl.Designer.cs">
+      <DependentUpon>QLSachUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuenMatKhau.Designer.cs">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserInfor.cs" />
+    <EmbeddedResource Include="BaoCaoUserControl.resx">
+      <DependentUpon>BaoCaoUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangKy.resx">
+      <DependentUpon>DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMuonSach.resx">
+      <DependentUpon>FormMuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormXemChiTietPhieu.resx">
+      <DependentUpon>FormXemChiTietPhieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaiKhoanUserControl.resx">
+      <DependentUpon>TaiKhoanUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinMuonAdminUserControl.resx">
+      <DependentUpon>ThongTinMuonAdminUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinMuonUserControl.resx">
+      <DependentUpon>ThongTinMuonUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThongTinTraAdminUserControl.resx">
+      <DependentUpon>ThongTinTraAdminUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="QLDocGiaUserControl.resx">
+      <DependentUpon>QLDocGiaUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrangChu.resx">
+      <DependentUpon>TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QLSachUserControl.resx">
+      <DependentUpon>QLSachUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuenMatKhau.resx">
+      <DependentUpon>QuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vien_Tai_Khoan.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\Khoa-removebg-preview.png" />
+    <None Include="Resources\Nguoidung-removebg-preview.png" />
+    <None Include="Resources\Khoa.jpg" />
+    <None Include="Resources\DangNhapThuVien.png" />
+    <None Include="Quanlisachcoban_TemporaryKey.pfx" />
+    <None Include="Resources\SachDangNhap1.jpg" />
+    <None Include="Resources\SachDangNhap.jpg" />
+    <None Include="Resources\images %281%29.png" />
+    <None Include="Resources\unnamed__1_-removebg-preview.png" />
+    <None Include="Resources\istockphoto-976849738-612x612.jpg" />
+    <None Include="Resources\pngtree-report-line-black-icon-png-image_4008047-removebg-preview.png" />
+    <None Include="Resources\Bieu-tuong-doc-sach-removebg-preview.png" />
+    <None Include="Resources\pngtree-home-icon-set-png-image_12380679-removebg-preview.png" />
+    <None Include="Resources\lovepik-creative-three-hardcover-books-illustration-png-image_401276495_wh1200-removebg-preview.png" />
+    <None Include="Resources\images-removebg-preview.png" />
+    <None Include="Resources\images.png" />
+    <None Include="Resources\Search_Icon.svg.png" />
+    <None Include="Resources\baner.png" />
+    <None Include="Resources\ea7199ded7e764bf24743cc7a0687a38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

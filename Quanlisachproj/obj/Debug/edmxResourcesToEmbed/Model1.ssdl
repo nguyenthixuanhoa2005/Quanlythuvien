@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="quanlisachModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Authors">
+    <Key>
+      <PropertyRef Name="author_id" />
+    </Key>
+    <Property Name="author_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="bio" Type="nvarchar" MaxLength="300" />
+    <Property Name="status" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BookAuthors">
+    <Key>
+      <PropertyRef Name="book_id" />
+      <PropertyRef Name="author_id" />
+    </Key>
+    <Property Name="book_id" Type="bigint" Nullable="false" />
+    <Property Name="author_id" Type="bigint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Books">
+    <Key>
+      <PropertyRef Name="book_id" />
+    </Key>
+    <Property Name="book_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="title" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="cate_id" Type="bigint" />
+    <Property Name="year" Type="int" />
+    <Property Name="total" Type="int" Nullable="false" />
+    <Property Name="available" Type="int" Nullable="false" />
+    <Property Name="publishing_house" Type="nvarchar" MaxLength="100" />
+    <Property Name="description" Type="nvarchar" MaxLength="300" />
+    <Property Name="language" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Categories">
+    <Key>
+      <PropertyRef Name="cate_id" />
+    </Key>
+    <Property Name="cate_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoanItems">
+    <Key>
+      <PropertyRef Name="loan_item_id" />
+    </Key>
+    <Property Name="loan_item_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="loan_id" Type="bigint" Nullable="false" />
+    <Property Name="book_id" Type="bigint" Nullable="false" />
+    <Property Name="return_date" Type="date" />
+    <Property Name="status_book" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Loans">
+    <Key>
+      <PropertyRef Name="loan_id" />
+    </Key>
+    <Property Name="loan_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="member_id" Type="bigint" Nullable="false" />
+    <Property Name="loan_date" Type="date" Nullable="false" />
+    <Property Name="due_date" Type="date" StoreGeneratedPattern="Computed" />
+    <Property Name="return_date" Type="date" />
+    <Property Name="status" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="created_by" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Members">
+    <Key>
+      <PropertyRef Name="member_id" />
+    </Key>
+    <Property Name="member_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="user_id" Type="bigint" Nullable="false" />
+    <Property Name="phone" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Reservation">
+    <Key>
+      <PropertyRef Name="reservation_id" />
+    </Key>
+    <Property Name="reservation_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="member_id" Type="bigint" Nullable="false" />
+    <Property Name="book_id" Type="bigint" Nullable="false" />
+    <Property Name="reserved_date" Type="date" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="10" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="255" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="role" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="status" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="date_since" Type="date" Nullable="false" />
+    <Property Name="date_due" Type="date" StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <Association Name="FK__BookAutho__autho__36470DEF">
+    <End Role="Authors" Type="Self.Authors" Multiplicity="1" />
+    <End Role="BookAuthors" Type="Self.BookAuthors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Authors">
+        <PropertyRef Name="author_id" />
+      </Principal>
+      <Dependent Role="BookAuthors">
+        <PropertyRef Name="author_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__BookAutho__book___373B3228">
+    <End Role="Books" Type="Self.Books" Multiplicity="1" />
+    <End Role="BookAuthors" Type="Self.BookAuthors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="book_id" />
+      </Principal>
+      <Dependent Role="BookAuthors">
+        <PropertyRef Name="book_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Books__cate_id__32767D0B">
+    <End Role="Categories" Type="Self.Categories" Multiplicity="0..1" />
+    <End Role="Books" Type="Self.Books" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categories">
+        <PropertyRef Name="cate_id" />
+      </Principal>
+      <Dependent Role="Books">
+        <PropertyRef Name="cate_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LoanItems__book___43A1090D">
+    <End Role="Books" Type="Self.Books" Multiplicity="1" />
+    <End Role="LoanItems" Type="Self.LoanItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="book_id" />
+      </Principal>
+      <Dependent Role="LoanItems">
+        <PropertyRef Name="book_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__LoanItems__loan___42ACE4D4">
+    <End Role="Loans" Type="Self.Loans" Multiplicity="1" />
+    <End Role="LoanItems" Type="Self.LoanItems" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Loans">
+        <PropertyRef Name="loan_id" />
+      </Principal>
+      <Dependent Role="LoanItems">
+        <PropertyRef Name="loan_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <!--Errors Found During Generation:
+warning 6035: The relationship 'FK__Loans__created_b__3DE82FB7' has columns that are not part of the key of the table on the primary side of the relationship. The relationship was excluded.
+        <Association Name="FK__Loans__created_b__3DE82FB7" />-->
+  <Association Name="FK__Loans__member_id__3CF40B7E">
+    <End Role="Members" Type="Self.Members" Multiplicity="1" />
+    <End Role="Loans" Type="Self.Loans" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Members">
+        <PropertyRef Name="member_id" />
+      </Principal>
+      <Dependent Role="Loans">
+        <PropertyRef Name="member_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Members__user_id__1F63A897">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Members" Type="Self.Members" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Members">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservati__book___4A4E069C">
+    <End Role="Books" Type="Self.Books" Multiplicity="1" />
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Books">
+        <PropertyRef Name="book_id" />
+      </Principal>
+      <Dependent Role="Reservation">
+        <PropertyRef Name="book_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Reservati__membe__4959E263">
+    <End Role="Members" Type="Self.Members" Multiplicity="1" />
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Members">
+        <PropertyRef Name="member_id" />
+      </Principal>
+      <Dependent Role="Reservation">
+        <PropertyRef Name="member_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="quanlisachModelStoreContainer">
+    <EntitySet Name="Authors" EntityType="Self.Authors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BookAuthors" EntityType="Self.BookAuthors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Books" EntityType="Self.Books" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categories" EntityType="Self.Categories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LoanItems" EntityType="Self.LoanItems" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Loans" EntityType="Self.Loans" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Members" EntityType="Self.Members" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Reservation" EntityType="Self.Reservation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__BookAutho__autho__36470DEF" Association="Self.FK__BookAutho__autho__36470DEF">
+      <End Role="Authors" EntitySet="Authors" />
+      <End Role="BookAuthors" EntitySet="BookAuthors" />
+    </AssociationSet>
+    <AssociationSet Name="FK__BookAutho__book___373B3228" Association="Self.FK__BookAutho__book___373B3228">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="BookAuthors" EntitySet="BookAuthors" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Books__cate_id__32767D0B" Association="Self.FK__Books__cate_id__32767D0B">
+      <End Role="Categories" EntitySet="Categories" />
+      <End Role="Books" EntitySet="Books" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LoanItems__book___43A1090D" Association="Self.FK__LoanItems__book___43A1090D">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="LoanItems" EntitySet="LoanItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK__LoanItems__loan___42ACE4D4" Association="Self.FK__LoanItems__loan___42ACE4D4">
+      <End Role="Loans" EntitySet="Loans" />
+      <End Role="LoanItems" EntitySet="LoanItems" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Loans__member_id__3CF40B7E" Association="Self.FK__Loans__member_id__3CF40B7E">
+      <End Role="Members" EntitySet="Members" />
+      <End Role="Loans" EntitySet="Loans" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Members__user_id__1F63A897" Association="Self.FK__Members__user_id__1F63A897">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Members" EntitySet="Members" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservati__book___4A4E069C" Association="Self.FK__Reservati__book___4A4E069C">
+      <End Role="Books" EntitySet="Books" />
+      <End Role="Reservation" EntitySet="Reservation" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Reservati__membe__4959E263" Association="Self.FK__Reservati__membe__4959E263">
+      <End Role="Members" EntitySet="Members" />
+      <End Role="Reservation" EntitySet="Reservation" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

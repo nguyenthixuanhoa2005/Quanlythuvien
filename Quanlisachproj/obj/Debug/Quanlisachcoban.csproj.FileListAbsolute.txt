@@ -1,0 +1,92 @@
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\bin\Debug\Quanlisachcoban.exe.config
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\bin\Debug\Quanlisachcoban.exe.manifest
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\bin\Debug\Quanlisachcoban.application
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\bin\Debug\Quanlisachcoban.exe
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\bin\Debug\Quanlisachcoban.pdb
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\bin\Debug\EntityFramework.dll
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\bin\Debug\EntityFramework.xml
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.AssemblyReference.cache
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.DangKy.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.DangNhap.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.DoiMatKhau.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.Properties.Resources.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.TrangChu.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.QLSachUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.QuanLyDocGia.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.QuenMatKhau.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.GenerateResource.cache
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.CoreCompileInputs.cache
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.exe.manifest
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.application
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisa.2AA46482.Up2Date
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.exe
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.pdb
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.exe.config
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.QLDocGiaUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.QLNhanVienUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.BaoCaoUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.TaiKhoanUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinMuonAdminUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinMuonUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinTraAdminUserControl.resources
+D:\Kì 5\.NET\QLTV\baitaplon\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinTraUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.exe.config
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.exe.manifest
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.application
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.exe
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.pdb
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\bin\Debug\EntityFramework.dll
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\bin\Debug\EntityFramework.xml
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.AssemblyReference.cache
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.BaoCaoUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.DangKy.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.DangNhap.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.DoiMatKhau.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.GioSach.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.TaiKhoanUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinMuonAdminUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinMuonUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinTraAdminUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.Properties.Resources.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.QLDocGiaUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.TrangChu.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.QLSachUserControl.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.QuenMatKhau.resources
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.GenerateResource.cache
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.CoreCompileInputs.cache
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.exe.manifest
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.application
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisa.2AA46482.Up2Date
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.exe
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.pdb
+D:\Kì 5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.exe.config
+D:\Ki5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.exe.config
+D:\Ki5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.exe.manifest
+D:\Ki5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.application
+D:\Ki5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.exe
+D:\Ki5\.NET\New-qltv\Quanlisachproj\bin\Debug\Quanlisachcoban.pdb
+D:\Ki5\.NET\New-qltv\Quanlisachproj\bin\Debug\EntityFramework.dll
+D:\Ki5\.NET\New-qltv\Quanlisachproj\bin\Debug\EntityFramework.xml
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.AssemblyReference.cache
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.exe.config
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.BaoCaoUserControl.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.DangKy.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.DangNhap.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.TaiKhoanUserControl.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinMuonAdminUserControl.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinMuonUserControl.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.ThongTinTraAdminUserControl.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.Properties.Resources.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.QLDocGiaUserControl.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.TrangChu.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.QLSachUserControl.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.QuenMatKhau.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.GenerateResource.cache
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.csproj.CoreCompileInputs.cache
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.exe.manifest
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.application
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisa.2AA46482.Up2Date
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.exe
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.pdb
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.FormMuonSach.resources
+D:\Ki5\.NET\New-qltv\Quanlisachproj\obj\Debug\Quanlisachcoban.FormXemChiTietPhieu.resources

@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\model\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:model\\ketnoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|d:\\ki5\\.net\\new-qltv\\quanlisachproj\\qlsachusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:qlsachusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\qlsachusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:qlsachusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\formxemchitietphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:formxemchitietphieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\thongtinmuonadminusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:thongtinmuonadminusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\thongtinmuonadminusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:thongtinmuonadminusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\formmuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:formmuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\qldocgiausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:qldocgiausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\qldocgiausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:qldocgiausercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\formmuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:formmuonsach.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\model\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:model\\loans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\thongtinmuonusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:thongtinmuonusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:dangky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:quenmatkhau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\taikhoanusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:taikhoanusercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6CC34BA4-C569-4E79-A717-03F9D2E14CA8}|Quanlisachcoban.csproj|solutionrelative:trangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 142,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QLSachUserControl.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLSachUserControl.cs",
+              "RelativeDocumentMoniker": "QLSachUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLSachUserControl.cs [Design]",
+              "RelativeToolTip": "QLSachUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T22:06:32.883Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QLSachUserControl.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLSachUserControl.cs",
+              "RelativeDocumentMoniker": "QLSachUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLSachUserControl.cs",
+              "RelativeToolTip": "QLSachUserControl.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:27:18.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormXemChiTietPhieu.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\FormXemChiTietPhieu.cs",
+              "RelativeDocumentMoniker": "FormXemChiTietPhieu.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\FormXemChiTietPhieu.cs",
+              "RelativeToolTip": "FormXemChiTietPhieu.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwC4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T03:23:33.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormMuonSach.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\FormMuonSach.cs",
+              "RelativeDocumentMoniker": "FormMuonSach.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\FormMuonSach.cs [Design]",
+              "RelativeToolTip": "FormMuonSach.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T03:51:45.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThongTinMuonAdminUserControl.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\ThongTinMuonAdminUserControl.cs",
+              "RelativeDocumentMoniker": "ThongTinMuonAdminUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\ThongTinMuonAdminUserControl.cs [Design]",
+              "RelativeToolTip": "ThongTinMuonAdminUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T05:37:26.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ketnoi.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\Model\\Ketnoi.cs",
+              "RelativeDocumentMoniker": "Model\\Ketnoi.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\Model\\Ketnoi.cs",
+              "RelativeToolTip": "Model\\Ketnoi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T18:22:50.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThongTinMuonAdminUserControl.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\ThongTinMuonAdminUserControl.cs",
+              "RelativeDocumentMoniker": "ThongTinMuonAdminUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\ThongTinMuonAdminUserControl.cs",
+              "RelativeToolTip": "ThongTinMuonAdminUserControl.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAYwLIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T02:23:43.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QLDocGiaUserControl.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLDocGiaUserControl.cs",
+              "RelativeDocumentMoniker": "QLDocGiaUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLDocGiaUserControl.cs [Design]",
+              "RelativeToolTip": "QLDocGiaUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T15:45:11.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QLDocGiaUserControl.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLDocGiaUserControl.cs",
+              "RelativeDocumentMoniker": "QLDocGiaUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QLDocGiaUserControl.cs",
+              "RelativeToolTip": "QLDocGiaUserControl.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAswGYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T15:45:13.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangNhap.cs [Design]",
+              "RelativeToolTip": "DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T04:30:43.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormMuonSach.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\FormMuonSach.cs",
+              "RelativeDocumentMoniker": "FormMuonSach.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\FormMuonSach.cs",
+              "RelativeToolTip": "FormMuonSach.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAmwDABAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T03:21:50.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DangNhap.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangNhap.cs",
+              "RelativeDocumentMoniker": "DangNhap.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangNhap.cs",
+              "RelativeToolTip": "DangNhap.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAIwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:21:11.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Loans.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\Model\\Loans.cs",
+              "RelativeDocumentMoniker": "Model\\Loans.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\Model\\Loans.cs",
+              "RelativeToolTip": "Model\\Loans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T04:11:09.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ThongTinMuonUserControl.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\ThongTinMuonUserControl.cs",
+              "RelativeDocumentMoniker": "ThongTinMuonUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\ThongTinMuonUserControl.cs [Design]",
+              "RelativeToolTip": "ThongTinMuonUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T04:14:41.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DangKy.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangKy.cs",
+              "RelativeDocumentMoniker": "DangKy.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangKy.cs [Design]",
+              "RelativeToolTip": "DangKy.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-06T17:18:47.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DangKy.cs",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangKy.cs",
+              "RelativeDocumentMoniker": "DangKy.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\DangKy.cs",
+              "RelativeToolTip": "DangKy.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAmwFsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T15:46:18.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaiKhoanUserControl.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\TaiKhoanUserControl.cs",
+              "RelativeDocumentMoniker": "TaiKhoanUserControl.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\TaiKhoanUserControl.cs [Design]",
+              "RelativeToolTip": "TaiKhoanUserControl.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T04:15:10.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuenMatKhau.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QuenMatKhau.cs",
+              "RelativeDocumentMoniker": "QuenMatKhau.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\QuenMatKhau.cs [Design]",
+              "RelativeToolTip": "QuenMatKhau.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T04:30:54.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TrangChu.cs [Design]",
+              "DocumentMoniker": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\TrangChu.cs",
+              "RelativeDocumentMoniker": "TrangChu.cs",
+              "ToolTip": "D:\\Ki5\\.NET\\New-qltv\\Quanlisachproj\\TrangChu.cs [Design]",
+              "RelativeToolTip": "TrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-07T04:14:56.782Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 82,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
