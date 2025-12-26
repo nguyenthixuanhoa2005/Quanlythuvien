@@ -23,6 +23,8 @@ public class Loan
 
     public void TinhSoNgayQuaHan()
     {
+        SoNgayQuaHan = 0; // Reset về 0 trước khi tính
+        
         if (NgayTraThucTe.HasValue)
         {
             if (NgayTraThucTe > NgayHenTra)
