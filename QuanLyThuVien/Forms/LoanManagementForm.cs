@@ -60,10 +60,16 @@ public partial class LoanManagementForm : Form
             NgayHenTra = dtpNgayHenTra.Value
         };
 
-        _dataManager.AddLoan(loan);
-        MessageBox.Show("Mượn sách thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        
-        LoadData();
+        try
+        {
+            _dataManager.AddLoan(loan);
+            MessageBox.Show("Mượn sách thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            LoadData();
+        }
+        catch (InvalidOperationException ex)
+        {
+            MessageBox.Show(ex.Message, "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 
     private void cboBooks_SelectedIndexChanged(object sender, EventArgs e)

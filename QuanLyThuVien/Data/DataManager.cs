@@ -5,7 +5,7 @@ namespace QuanLyThuVien.Data;
 
 public class DataManager
 {
-    private static DataManager? _instance;
+    private static readonly Lazy<DataManager> _instance = new Lazy<DataManager>(() => new DataManager());
     private readonly string _dataFolder;
     
     private List<Book> _books;
@@ -16,17 +16,7 @@ public class DataManager
     private int _nextMemberId = 1;
     private int _nextLoanId = 1;
 
-    public static DataManager Instance
-    {
-        get
-        {
-            if (_instance == null)
-            {
-                _instance = new DataManager();
-            }
-            return _instance;
-        }
-    }
+    public static DataManager Instance => _instance.Value;
 
     private DataManager()
     {
@@ -236,16 +226,19 @@ public class DataManager
 
     public void AddLoan(Loan loan)
     {
+        // Kiểm tra số lượng sách trước khi thêm phiếu mượn
+        var book = GetBookById(loan.BookId);
+        if (book == null || book.SoLuongConLai <= 0)
+        {
+            throw new InvalidOperationException("Sách không có sẵn để mượn!");
+        }
+
         loan.Id = _nextLoanId++;
         _loans.Add(loan);
         
         // Giảm số lượng sách còn lại
-        var book = GetBookById(loan.BookId);
-        if (book != null && book.SoLuongConLai > 0)
-        {
-            book.SoLuongConLai--;
-            UpdateBook(book);
-        }
+        book.SoLuongConLai--;
+        UpdateBook(book);
         
         SaveLoans();
     }

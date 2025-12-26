@@ -44,9 +44,13 @@ public partial class ReturnBookForm : Form
         {
             _dataManager.ReturnBook(_selectedLoan.Id);
             
-            if (_selectedLoan.SoNgayQuaHan > 0)
+            // Lấy lại thông tin loan đã được cập nhật để kiểm tra số ngày quá hạn
+            var updatedLoans = _dataManager.GetLoansWithDetails();
+            var returnedLoan = updatedLoans.FirstOrDefault(l => l.Id == _selectedLoan.Id);
+            
+            if (returnedLoan != null && returnedLoan.SoNgayQuaHan > 0)
             {
-                MessageBox.Show($"Trả sách thành công!\nSố ngày quá hạn: {_selectedLoan.SoNgayQuaHan} ngày", 
+                MessageBox.Show($"Trả sách thành công!\nSố ngày quá hạn: {returnedLoan.SoNgayQuaHan} ngày", 
                     "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
